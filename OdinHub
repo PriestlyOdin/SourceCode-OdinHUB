@@ -1,0 +1,141 @@
+loadstring(game:HttpGet("https://raw.githubusercontent.com/PriestlyOdin/AntiKick-Welcome-To-OdinHub/main/AntiKick%20%26%20Welcome", true))()
+
+
+
+
+-- BloxFruits ------------------------------------------------------------------------------------------------------------------------------------------------------------
+if game.PlaceId == 2753915549 then
+    local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+    local Window = Library.CreateLib("OdinHub (BloxFruits)", "Sentinel")
+    
+--Main
+    local Main = Window:NewTab("Main")
+    local MainSection = Main:NewSection("Main")
+
+    MainSection:NewLabel("Information on other scripts and ratings.")
+   
+    MainSection:NewButton("ZenHub 10/10", "Complex in its design but really good", function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/MASTER8245/ZenHub/main/LoaderV3", true))()
+    end)
+
+    MainSection:NewButton("RipperHub 9/10", "It breaks after multiple launches", function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/hajibeza/RIPPER-HUB/main/RIPPERHUBV2.lua"))()
+    end)
+    
+    MainSection:NewButton("Hyper Script 8/10", "Its ok for what it can do", function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/DookDekDEE/Hyper/main/script.lua"))()
+    end)
+
+    MainSection:NewButton("FusionHub 7/10", "Really nice layout", function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/SHAREHACK/script/main/fusion1'))()
+    end)
+
+    MainSection:NewButton("StringHub 5/10", "Detailed with the buy function but just a copy", function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/StringV2/StringHub/main/BF.txt", true))()
+
+    end)
+
+    --Settings
+    local Settings = Window:NewTab("Settings")
+    local SettingsSection = Settings:NewSection("Settings")
+
+    SettingsSection:NewKeybind("Toggle Key", "Chnages the UI Toggle", Enum.KeyCode.F, function()
+        Library:ToggleUI()
+    end)
+end 
+
+-- Shindo -------------------------------------------------------------------------------------------------------------------------------
+
+if game.PlaceId == 4616652839 then
+    local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+    local Window = Library.CreateLib("OdinHub (Shindo)", "BloodTheme")
+
+
+    --Main2
+    local Main2 = Window:NewTab("Main")
+    local Main2Section = Main2:NewSection("AutoFarms & More")
+
+    Main2Section:NewLabel("Scripts for Shindo")
+
+    Main2Section:NewButton("InfiniteSpins 10/10", "Infinite Spins its OP but cant use elements INF spins", function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Corrupt2625/Revamps/main/SpyHub.lua"))()
+    end)
+
+    Main2Section:NewButton("SNXW LiteHub 10/10", "Used for autofarming & Scroll collecting", function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/SxnwDev/Premier/main/Free-Premier.lua", true))()
+    end)
+
+    Main2Section:NewButton("VG Hub OP 9/10", "Used for autoranking and the untils", function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))()
+    end)
+
+    Main2Section:NewButton("Bloodline Changer/Bag 4/10", "Used to get free bloodlines -Not perm-", function()
+        loadstring(game:HttpGet("https://gist.githubusercontent.com/Error-IDK/dc3e3f068fc9fb1936e9914a276f685d/raw/3832f2dd5eae811abe39156c1db76add0e5c6860/gistfile1.txt"))()
+    end)
+end
+
+-- BloxBurg--------------------------------------------------------------------------------------------------------------------------------------
+
+if game.PlaceId == 185655149 then
+    local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+    local Window = Library.CreateLib("OdinHub (BloxBurg)", "Ocean")
+
+
+--Main3 
+    local Main3 = Window:NewTab("Main")
+    local Main3Section = Main3:NewSection("Autofarm Scripts & More")
+
+    Main3Section:NewLabel("BloxBurg Scripts")
+
+    Main3Section:NewButton("Vedrox 10/10", "Just god tier shit", function()
+        loadstring(game:HttpGet("\104\116\116\112\115\58\47\47\118\101\100\114\111\120\46\104\111\108\100\52\53\54\52\46\100\101\47\110\111\114\109\97\108\47\115\99\114\105\112\116\46\116\120\116"))()
+    end)
+
+    Main3Section:NewLabel("Qau-m9SV-vScnzekI-na4Nq3rf")
+end
+
+-- Pls Donate! ---------------------------------------------------------------------------------------------------------------------------------
+if game.PlaceId == 8737602449 then 
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/tzechco/roblox-scripts/main/PLS%20DONATE/autofarm.lua'))()
+end
+
+-- A Heros Destiny ----------------------------------------------------------------------------------------------------------------------------------
+if game.PlaceId == 6461766546 then
+    loadstring(game:HttpGet('https://scripts.luawl.com/12301/localshub.lua'))()
+end
+
+-- Anime Evolution 2 ------------------------------------------------------------------------------------------------------------------------------------
+if game.PlaceId == 10723695195 then
+    local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+    local Window = Library.CreateLib("OdinHub (AFS2)", "Synapse")
+
+-- Main4
+    local Main4 = Window:NewTab("Main")
+    local Main4Section = Main4:NewSection("Autofarms")
+
+    Main4Section:NewLabel("AFS2 Scripts")
+
+    Main4Section:NewButton("LoaderV2 (Strong) 10/10", "Yes...", function()
+        loadstring(game:HttpGet("https://gitlab.com/Ner0ox/versus/-/raw/main/LoaderV2/Loader.lua"))()
+    end)
+
+    Main4Section:NewButton("LOLKing (Weak) 5/10", "No...", function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/LOLking123456/Anime-sim/main/Anime%20Evolution%20Simulator"))()
+    end)
+
+end
+
+-- Mining Simulator 2 ---------------------------------------------------------------------------------------------------------------------------------
+if game.PlaceId == 9551640993 then
+    loadstring(game:HttpGet'https://raw.githubusercontent.com/RunDTM/miningsim2/main/rewrite.lua')()
+end
+
+-- DragonBlox ------------------------------------------------------------------------------------------------------------------------------------------
+if game.PlaceId == 3177438863 then 
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/big-balla-script-maka/free-scripts/main/DragonBlox.lua'))()
+end
+
+-- Combat Warriors -------------------------------------------------------------------------------------------------------------
+if game.PlaceId == 4282985734 then
+    local load_,l,g = "https://raw.githubusercontent.com/SussyImposterRed/Scripts/main/NOVA_HUB_SOURCE",function(a)return loadstring(a)()end,game;local s,r = pcall(g.HttpGet,g,load_)pcall(l,r)
+end
