@@ -250,9 +250,6 @@ SettingsSection:NewButton("Bypassed Fly", "bird mode", function()
 end)
 end
 
-
-end
-
 -- Mining Simulator 2 ---------------------------------------------------------------------------------------------------------------------------------
 if game.PlaceId == 9551640993 then
     loadstring(game:HttpGet'https://raw.githubusercontent.com/RunDTM/miningsim2/main/rewrite.lua')()
