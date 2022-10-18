@@ -1,7 +1,6 @@
+wait(5)
+
 loadstring(game:HttpGet("https://raw.githubusercontent.com/PriestlyOdin/AntiKick-Welcome-To-OdinHub/main/AntiKick%20%26%20Welcome", true))()
-
-
-
 
 -- BloxFruits ------------------------------------------------------------------------------------------------------------------------------------------------------------
 if game.PlaceId == 2753915549 then
@@ -35,15 +34,52 @@ if game.PlaceId == 2753915549 then
 
     end)
 
+-- -----------Player -----------------------------------------------------------------------------------------------------
+local Player = Window:NewTab("Player")
+local PlayerSection = Player:NewSection("Player Settings")
+
+PlayerSection:NewLabel("If one of the options dont work it means that it has been patched or cant be done in that game")
+
+
+PlayerSection:NewSlider("WalkSpeed", "Fast as FUCK BOI", 250, 16, function(s) -- 500 (MaxValue) | 0 (MinValue)
+    game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
+end)
+
+PlayerSection:NewSlider("JumpPower", "THE POWER OF A SPRING", 350, 50, function(s) -- 500 (MaxValue) | 0 (MinValue)
+    game.Players.LocalPlayer.Character.Humanoid.JumpPower = s
+end)
+
+PlayerSection:NewButton("Reset WS/JP", "Resets WalkSpeed And Jump Power", function()
+    game.Player.LocalPlayer.Character.Humanoid.JumpPower = 50
+    game.Player.LocalPlayer.Character.Humanoid.WalkSpeed = 16
+end)
+
+PlayerSection:NewButton("Back/Front Flip", "Makes you do gymnastics", function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/7wDcPtLk'))()
+end)
+
     --Settings
-    local Settings = Window:NewTab("Settings")
-    local SettingsSection = Settings:NewSection("Settings")
+local Settings = Window:NewTab("Settings")
+local SettingsSection = Settings:NewSection("Settings")
 
-    SettingsSection:NewKeybind("Toggle Key", "Chnages the UI Toggle", Enum.KeyCode.F, function()
-        Library:ToggleUI()
+SettingsSection:NewKeybind("Toggle Key", "Chnages the UI Toggle", Enum.KeyCode.F, function()
+    Library:ToggleUI()
+end)
+
+SettingsSection:NewButton("Infinite Yield", "FE Admin Commands", function()
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
+end)
+
+SettingsSection:NewButton("Chat Spoofer", "Lets you chat for other people", function()
+    loadstring(game:HttpGet(('https://pastebin.com/raw/djBfk8Li'),true))()
+end)
+
+SettingsSection:NewButton("Bypassed Fly", "bird mode", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Nicuse/RobloxScripts/main/BypassedFly.lua"))() 
+
+    Fly(true)
     end)
-end 
-
+end
 -- Shindo -------------------------------------------------------------------------------------------------------------------------------
 
 if game.PlaceId == 4616652839 then
@@ -91,7 +127,51 @@ if game.PlaceId == 185655149 then
         loadstring(game:HttpGet("\104\116\116\112\115\58\47\47\118\101\100\114\111\120\46\104\111\108\100\52\53\54\52\46\100\101\47\110\111\114\109\97\108\47\115\99\114\105\112\116\46\116\120\116"))()
     end)
 
-    Main3Section:NewLabel("Qau-m9SV-vScnzekI-na4Nq3rf")
+-- -----------Player -----------------------------------------------------------------------------------------------------
+    local Player = Window:NewTab("Player")
+    local PlayerSection = Player:NewSection("Player Settings")
+
+    PlayerSection:NewLabel("If one of the options dont work it means that it has been patched or cant be done in that game")
+
+
+    PlayerSection:NewSlider("WalkSpeed", "Fast as FUCK BOI", 250, 16, function(s) -- 500 (MaxValue) | 0 (MinValue)
+        game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
+    end)
+
+    PlayerSection:NewSlider("JumpPower", "THE POWER OF A SPRING", 350, 50, function(s) -- 500 (MaxValue) | 0 (MinValue)
+        game.Players.LocalPlayer.Character.Humanoid.JumpPower = s
+    end)
+
+    PlayerSection:NewButton("Reset WS/JP", "Resets WalkSpeed And Jump Power", function()
+        game.Player.LocalPlayer.Character.Humanoid.JumpPower = 50
+        game.Player.LocalPlayer.Character.Humanoid.WalkSpeed = 16
+    end)
+
+    PlayerSection:NewButton("Back/Front Flip", "Makes you do gymnastics", function()
+        loadstring(game:HttpGet('https://pastebin.com/raw/7wDcPtLk'))()
+    end)
+
+        --Settings
+    local Settings = Window:NewTab("Settings")
+    local SettingsSection = Settings:NewSection("Settings")
+
+    SettingsSection:NewKeybind("Toggle Key", "Chnages the UI Toggle", Enum.KeyCode.F, function()
+        Library:ToggleUI()
+    end)
+
+    SettingsSection:NewButton("Infinite Yield", "FE Admin Commands", function()
+        loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
+    end)
+
+    SettingsSection:NewButton("Chat Spoofer", "Lets you chat for other people", function()
+        loadstring(game:HttpGet(('https://pastebin.com/raw/djBfk8Li'),true))()
+    end)
+
+    SettingsSection:NewButton("Bypassed Fly", "bird mode", function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Nicuse/RobloxScripts/main/BypassedFly.lua"))() 
+
+        Fly(true)
+    end)
 end
 
 -- Pls Donate! ---------------------------------------------------------------------------------------------------------------------------------
@@ -123,6 +203,54 @@ if game.PlaceId == 10723695195 then
         loadstring(game:HttpGet("https://raw.githubusercontent.com/LOLking123456/Anime-sim/main/Anime%20Evolution%20Simulator"))()
     end)
 
+-- -----------Player -----------------------------------------------------------------------------------------------------
+local Player = Window:NewTab("Player")
+local PlayerSection = Player:NewSection("Player Settings")
+
+PlayerSection:NewLabel("If one of the options dont work it means that it has been patched or cant be done in that game")
+
+
+PlayerSection:NewSlider("WalkSpeed", "Fast as FUCK BOI", 250, 16, function(s) -- 500 (MaxValue) | 0 (MinValue)
+    game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
+end)
+
+PlayerSection:NewSlider("JumpPower", "THE POWER OF A SPRING", 350, 50, function(s) -- 500 (MaxValue) | 0 (MinValue)
+    game.Players.LocalPlayer.Character.Humanoid.JumpPower = s
+end)
+
+PlayerSection:NewButton("Reset WS/JP", "Resets WalkSpeed And Jump Power", function()
+    game.Player.LocalPlayer.Character.Humanoid.JumpPower = 50
+    game.Player.LocalPlayer.Character.Humanoid.WalkSpeed = 16
+end)
+
+PlayerSection:NewButton("Back/Front Flip", "Makes you do gymnastics", function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/7wDcPtLk'))()
+end)
+
+    --Settings
+local Settings = Window:NewTab("Settings")
+local SettingsSection = Settings:NewSection("Settings")
+
+SettingsSection:NewKeybind("Toggle Key", "Chnages the UI Toggle", Enum.KeyCode.F, function()
+    Library:ToggleUI()
+end)
+
+SettingsSection:NewButton("Infinite Yield", "FE Admin Commands", function()
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
+end)
+
+SettingsSection:NewButton("Chat Spoofer", "Lets you chat for other people", function()
+    loadstring(game:HttpGet(('https://pastebin.com/raw/djBfk8Li'),true))()
+end)
+
+SettingsSection:NewButton("Bypassed Fly", "bird mode", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Nicuse/RobloxScripts/main/BypassedFly.lua"))() 
+
+    Fly(true)
+end)
+end
+
+
 end
 
 -- Mining Simulator 2 ---------------------------------------------------------------------------------------------------------------------------------
@@ -138,9 +266,4 @@ end
 -- Combat Warriors -------------------------------------------------------------------------------------------------------------
 if game.PlaceId == 4282985734 then
     local load_,l,g = "https://raw.githubusercontent.com/SussyImposterRed/Scripts/main/NOVA_HUB_SOURCE",function(a)return loadstring(a)()end,game;local s,r = pcall(g.HttpGet,g,load_)pcall(l,r)
-end
-
--- Deadly Sins Retribution ----------------------------------------------------------------------------------------------
-if game.PlaceId == 2066381781 then
-    loadstring(game:HttpGet(('https://raw.githubusercontent.com/XTheMasterX/Scripts/Main/DeadlySinsRetribution'),true))()
 end
