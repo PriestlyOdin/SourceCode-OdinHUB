@@ -1,5 +1,3 @@
-wait(5)
-
 loadstring(game:HttpGet("https://raw.githubusercontent.com/PriestlyOdin/AntiKick-Welcome-To-OdinHub/main/AntiKick%20%26%20Welcome", true))()
 
 -- BloxFruits ------------------------------------------------------------------------------------------------------------------------------------------------------------
