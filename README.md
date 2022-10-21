@@ -11,6 +11,8 @@ Supported Games-
 - Mining Simulator 2
 - DragonBlox
 - Combat Warriors
+- DaHood
+- Rocitizens
 
 Please feel free to DM me on discord if you have a game i should add to this list. 
 Odin.#6849
