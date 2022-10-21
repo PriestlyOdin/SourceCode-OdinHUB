@@ -246,7 +246,7 @@ SettingsSection:NewButton("Chat Spoofer", "Lets you chat for other people", func
 end)
 
 SettingsSection:NewButton("Bypassed Fly", "bird mode", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/Nicuse/RobloxScripts/main/BypassedFly.lua"))() 
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Nicuse/RobloxScripts/main/BypassedFly.lua", true))() 
 
     Fly(true)
 end)
@@ -254,12 +254,12 @@ end
 
 -- Mining Simulator 2 ---------------------------------------------------------------------------------------------------------------------------------
 if game.PlaceId == 9551640993 then
-    loadstring(game:HttpGet'https://raw.githubusercontent.com/RunDTM/miningsim2/main/rewrite.lua')()
+    loadstring(game:HttpGet'https://raw.githubusercontent.com/RunDTM/miningsim2/main/rewrite.lua', true)()
 end
 
 -- DragonBlox ------------------------------------------------------------------------------------------------------------------------------------------
 if game.PlaceId == 3177438863 then 
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/big-balla-script-maka/free-scripts/main/DragonBlox.lua'))()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/big-balla-script-maka/free-scripts/main/DragonBlox.lua', true))()
 end
 
 -- Combat Warriors -------------------------------------------------------------------------------------------------------------
