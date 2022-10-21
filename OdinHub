@@ -1,5 +1,3 @@
-getgenv().SendNotifications = true
-
 loadstring(game:HttpGet("https://raw.githubusercontent.com/PriestlyOdin/AntiKick-Welcome-To-OdinHub/main/AntiKick%20%26%20Welcome", true))()
 
 -- BloxFruits ------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -283,17 +281,3 @@ end
 if game.PlaceId == 2809202155 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/ItachiPvPUchiha/CuHub/main/yba.lua", true))()
 end
-
-
-
-
-setclipboard("https://discord.gg/YH28DDwght")
-
-if getgenv().SendNotifications == true then
-    game:GetService("StarterGui"):SetCore("SendNotification", {
-        Title = Join Discord",
-        Text = "Feel free to join our Discord it has been copied to your clipboard!",
-        Icon = "rbxassetid://6238537240",
-        Duration = 15,
-end
-
