@@ -250,6 +250,7 @@ SettingsSection:NewButton("Bypassed Fly", "bird mode", function()
 
     Fly(true)
 end)
+end
 
 -- Mining Simulator 2 ---------------------------------------------------------------------------------------------------------------------------------
 if game.PlaceId == 9551640993 then
@@ -269,14 +270,4 @@ end
 -- DaHood -----------------------------------------------------------------------------------------------------------------------
 if game.PlaceId == 2788229376 then 
     loadstring(game:HttpGet("https://raw.githubusercontent.com/ImagineProUser/vortexdahood/main/vortex", true))()
-end
-
--- Rocitizens ---------------------------------------------------------------------------------------------------------------------------------------------
-if game.PlaceId == 137877687 then
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/FluffyR8/VARIETY-HUB/main/Variety.lua", true))()
-end
-
--- Your Bizarre Adventure ----------------------------------------------------------------------------------------------------------------------------------
-if game.PlaceId == 2809202155 then
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/ItachiPvPUchiha/CuHub/main/yba.lua", true))()
 end
