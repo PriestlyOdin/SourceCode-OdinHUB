@@ -126,7 +126,7 @@ if game.PlaceId == 185655149 then
     end)
 
     Main3Section:NewButton("Get Key For Vedrox", "This will copy a link to you clipboard", function(
-        navigator.clipboard.writeText(https://vedrox.hold4564.de/new/key-system/get-key.php) function)
+        clipboard(https://vedrox.hold4564.de/new/key-system/get-key.php) function)
         end)
 
 -- -----------Player -----------------------------------------------------------------------------------------------------
