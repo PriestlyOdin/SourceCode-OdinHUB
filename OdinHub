@@ -279,5 +279,5 @@ end
 
 -- Your Bizarre Adventure ----------------------------------------------------------------------------------------------------------------------------------
 if game.PlaceId == 2809202155 then
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/ItachiPvPUchiha/CuHub/main/yba.lua"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ItachiPvPUchiha/CuHub/main/yba.lua", true))()
 end
