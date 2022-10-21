@@ -1,3 +1,5 @@
+loadstring(game:HttpGet("https://raw.githubusercontent.com/PriestlyOdin/AntiKick-Welcome-To-OdinHub/main/AntiKick%20%26%20Welcome", true))()
+
 -- BloxFruits ------------------------------------------------------------------------------------------------------------------------------------------------------------
 if game.PlaceId == 2753915549 then
     local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
@@ -248,7 +250,6 @@ SettingsSection:NewButton("Bypassed Fly", "bird mode", function()
 
     Fly(true)
 end)
-end
 
 -- Mining Simulator 2 ---------------------------------------------------------------------------------------------------------------------------------
 if game.PlaceId == 9551640993 then
