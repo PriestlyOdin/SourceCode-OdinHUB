@@ -273,7 +273,7 @@ if game.PlaceId == 2788229376 then
 end
 
 -- Rocitizens ---------------------------------------------------------------------------------------------------------------------------------------------
-id game.PlaceId == 137877687 then
+if game.PlaceId == 137877687 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/FluffyR8/VARIETY-HUB/main/Variety.lua", true))()
 end
 
