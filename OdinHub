@@ -1,3 +1,5 @@
+getgenv().SendNotifications = true
+
 loadstring(game:HttpGet("https://raw.githubusercontent.com/PriestlyOdin/AntiKick-Welcome-To-OdinHub/main/AntiKick%20%26%20Welcome", true))()
 
 -- BloxFruits ------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -286,6 +288,7 @@ end
 
 
 setclipboard("https://discord.gg/YH28DDwght")
+
 if getgenv().SendNotifications == true then
     game:GetService("StarterGui"):SetCore("SendNotification", {
         Title = Join Discord",
