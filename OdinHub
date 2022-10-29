@@ -308,7 +308,7 @@ end
 
 -- DragonBlox ------------------------------------------------------------------------------------------------------------------------------------------
 if game.PlaceId == 3177438863 then 
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/big-balla-script-maka/free-scripts/main/DragonBlox.lua', true))()
+    loadstring(game:HttpGet('https://scripts.luawl.com/12301/localshub.lua', true))()
 end
 
 -- Combat Warriors -------------------------------------------------------------------------------------------------------------
@@ -323,10 +323,36 @@ end
 
 -- Rocitizens ---------------------------------------------------------------------------------------------------------------------------------------------
 if game.PlaceId == 137877687 then
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/FluffyR8/VARIETY-HUB/main/Variety.lua", true))()
+    local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+    local Window = Library.CreateLib("OdinHub (Rocitizens)", "Synapse")
+
+    local Main1 = Window:NewTab("Main")
+    local Main1Section = Main1:NewSection("Autofarms")
+
+    Main1Section:NewLabel("AFS2 Scripts")
+
+    Main1Section:NewButton("Variety 10/10", "A mix of auto & Misc", function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/FluffyR8/VARIETY-HUB/main/Variety.lua", true))()
+    end)
+
+    Main1Section:NewButton("Pure Auto 10/10", "Just farming", function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Empire4946/rocitizens-funny-empifysouth/main/main.lua",true))()
+    end)
 end
 
 -- Your Bizarre Adventure ----------------------------------------------------------------------------------------------------------------------------------
 if game.PlaceId == 2809202155 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/ItachiPvPUchiha/CuHub/main/yba.lua", true))()
 end
+
+-- Doors -------------------------------------------------------------------------------------------------------------------------------------------------------
+if game.PlaceId == 6516141723 then
+    loadstring(game:HttpGet("http://imsleepy.net/scripts/doors_auto.lua", true))()
+end
+
+-- Soul Eater -------------------------------------------------------------------------------------------------------------------------------------------------------
+if game.PlaceId == 4505214429 then
+    loadstring(game:HttpGet"https://thedragonslayer2.github.io")()
+end
+
+-- 
