@@ -308,7 +308,7 @@ end
 
 -- DragonBlox ------------------------------------------------------------------------------------------------------------------------------------------
 if game.PlaceId == 3177438863 then 
-    loadstring(game:HttpGet('https://scripts.luawl.com/12301/localshub.lua'))(), true))()
+    loadstring(game:HttpGet('https://scripts.luawl.com/12301/localshub.lua'))()
 end
 
 -- Combat Warriors -------------------------------------------------------------------------------------------------------------
